@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class start {
     public static void main(String[] args) throws IOException {
-        ex5();
+        ex7();
     }
     static void ex0(){
         // целые числа
@@ -97,6 +97,21 @@ public class start {
         for (int i = 0; i < n; i++) {
             System.out.println(" Итерация " + i);
         }
+
+    }
+    static void ex6(){
+//        int[] nums = {1, 1, 1, 1};
+        int[] nums = new int[4];
+
+        for (int i = 0; i < 4; i++) {
+            nums[i] = i;
+        }
+        nums[3] = 100;
+        for (int e : nums) {
+            System.out.println(e);
+        }
+    }
+    static void ex7(){
 
     }
 }
