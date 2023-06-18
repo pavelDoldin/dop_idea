@@ -1,5 +1,5 @@
 import java.io.IOException;
-
+import java.util.*; // Для ex7()
 public class start {
     public static void main(String[] args) throws IOException {
         ex7();
@@ -111,9 +111,11 @@ public class start {
             System.out.println(e);
         }
     }
-    static void ex7(){
-
+    static void ex7() {
+        System.out.println("Привет, сегодня: ");
+        System.out.println(new Date());  // Сегодняшнее время, число, год
     }
+
 }
 
 
